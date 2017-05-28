@@ -4,7 +4,7 @@
     DB::$dbName = 'MicroBlog';
 
     $username = $_POST['username'];
-    $password = $_POST['pasword'];
+    $password = $_POST['password'];
     $hash = password_hash($password, PASSWORD_DEFAULT);
 
     DB:: insert('Credentials', array(
@@ -12,5 +12,6 @@
             'password' => $hash
         ));
 
-    header('Location: http://localhost:8888/index.php');
+    // After registering it directs back to home page
+    header('Location: http://localhost:80/spage/index.php');
 ?>

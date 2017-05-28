@@ -10,7 +10,7 @@
          <h2>Register</h2>
         <form action="registerForm.php" method="post">
                 <p>Username: <input type="text" name="username" id="username"></p>
-                <p>Password: <input type="text" name="password" id="password"></p>
+                <p>Password: <input type="password" name="password" id="password"></p>
                 <input type="submit">
         </form>
     </body>

@@ -17,9 +17,9 @@
                 </form>';
             }
             else {
-                echo '<form action=“login.php" method=“post”>
-                        Username: <input type=“text" name=“username” id="username" /> </br>
-                        Password: <input type=“text" name=“password” id="password" />
+                echo '<form action="login.php" method="post">
+                        Username: <input type="text" name="username" id="username" /> </br>
+                        Password: <input type="password" name="password" id="password" />
                         <input type="submit">
                 </form>';
             }
